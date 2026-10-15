@@ -1,0 +1,20 @@
+{
+  "status": "queued",
+  "inputs": [],
+  "dependencies": [],
+  "limits": {
+    "max_retry_attempts_per_defect": 2,
+    "money_budget": null,
+    "currency": null
+  },
+  "result": null,
+  "id": "dev-example-001",
+  "team": "development",
+  "project": "sample-crm",
+  "goal": "Добавить ввод расходов и обновление финансового отчёта",
+  "acceptance_criteria": [
+    "Расход сохраняется после обновления страницы",
+    "Отчёт показывает правильную сумму",
+    "Пользователь другой компании не видит запись"
+  ]
+}

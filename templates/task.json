@@ -1,0 +1,16 @@
+{
+  "status": "queued",
+  "inputs": [],
+  "dependencies": [],
+  "limits": {
+    "max_retry_attempts_per_defect": 2,
+    "money_budget": null,
+    "currency": null
+  },
+  "result": null,
+  "id": "replace-with-unique-id",
+  "team": "development",
+  "project": "replace-with-project",
+  "goal": "replace-with-goal",
+  "acceptance_criteria": []
+}

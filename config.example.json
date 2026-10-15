@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "mode": "prompt_starter_kit",
+  "limits": {
+    "max_concurrent_workers": 3,
+    "max_retry_attempts_per_defect": 2,
+    "money_budget": null,
+    "currency": null
+  },
+  "teams": {
+    "development": {
+      "project": "my-product",
+      "guide": "teams/development.md",
+      "roles": [
+        "coordinator",
+        "frontend",
+        "backend",
+        "qa",
+        "deployment_on_demand"
+      ]
+    },
+    "youtube": {
+      "project": "my-channel",
+      "guide": "teams/youtube.md",
+      "roles": [
+        "producer",
+        "scriptwriter",
+        "visual_director",
+        "editor_audio",
+        "publisher",
+        "analyst"
+      ],
+      "pilot": {
+        "episodes": 10,
+        "publish_days": 14,
+        "observe_until_day": 21,
+        "day_1": "first_actual_publication"
+      }
+    }
+  },
+  "note": "Descriptive configuration. Limits are not automatically enforced by this starter kit."
+}

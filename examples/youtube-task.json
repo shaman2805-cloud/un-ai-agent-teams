@@ -1,0 +1,26 @@
+{
+  "status": "queued",
+  "inputs": [],
+  "dependencies": [],
+  "limits": {
+    "max_retry_attempts_per_defect": 2,
+    "money_budget": null,
+    "currency": null
+  },
+  "result": null,
+  "id": "yt-example-001",
+  "team": "youtube",
+  "project": "sample-toons",
+  "goal": "Подготовить оригинальный Short про дружелюбного робота и воздушный шар",
+  "audience": {
+    "language": "en",
+    "age_range": "3–6",
+    "format": "9:16",
+    "target_seconds": 30
+  },
+  "acceptance_criteria": [
+    "Сценарий со сценами и понятной развязкой",
+    "Промпты сохраняют внешность героя",
+    "Статус генерации, монтажа и публикации указан фактически"
+  ]
+}
